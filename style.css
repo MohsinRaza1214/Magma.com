@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -96,4 +97,31 @@ html, body {
 .bottom-page1-inner>h4 {
     font-size: 1.3vw;
     color: white;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Jost", sans-serif;
+    padding: 0 8vw;
+    color: white;
+}
+
+#page2>h2 {
+    font-weight: 300;
+    margin-bottom: 2.5vw;
+}
+
+#page2>h1 {
+    width: 85%;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #dadada69;
 }
