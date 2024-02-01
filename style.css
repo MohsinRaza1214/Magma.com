@@ -365,3 +365,67 @@ html, body {
     width: 80%;
     margin-top: 1.2vw;
 }
+
+#page11 {
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#page11>h1 {
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+    font-weight: 300;
+    top: 5%;
+    left: 10%;
+    letter-spacing: -4px;
+}
+
+.page11-inner {
+    position: relative;
+    margin-bottom: 2vw;
+    height: 25%;
+    width: 100%;
+    /* background-color: red; */
+    top: 17%;
+    left: 5%;
+    display: flex;
+}
+
+.left11 {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    /* background-color: blue; */
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left11>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right11 {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    left: 45%;
+    color: black;
+    padding: 5vw;
+}
+
+.right11>h4 {
+    font-weight: 500;
+}
+
+.right11>h2 {
+    font-size: 2vw;
+    font-weight: 500;
+}
