@@ -659,3 +659,31 @@ gsap.to(".page7-cir-inner", {
   },
   backgroundColor: `#0a3bce91`
 })
+
+
+// gsap.from(".page8-bottom", {
+//   y: 50,
+//   scrollTrigger: {
+//       trigger: ".page8-bottom",
+//       scroller: "#main",
+//       start: "top bottom",
+//       end: "bottom top",
+//       scrub: 3
+//   }
+// })
+
+gsap.from(".page8-bottom", {
+  y: 90,
+  opacity: 0,
+  duration: .5,
+  stagger: 0.3,
+  scrollTrigger: {
+      trigger: ".page8-bottom", 
+      scroller: "#main",
+      // markers: true,
+      start: "top 75%",
+      end: "top 58%",
+      scrub: 1
+  }
+})
+
